@@ -261,6 +261,15 @@ transition: 0.2s ease-in;
 
 /*----------------  MEDIA QUERIES ----------------------*/
 
+/*----------------  mobile ----------------------*/
+@media screen and (min-width:375px) and (max-width:489px){
+.nav{
+    
+    font-size: 2.1em;
+    }
+
+
+}
 /*---------------- TABLET  ----------------------*/
 
 @media screen and (min-width:490px) and (max-width:680px){
