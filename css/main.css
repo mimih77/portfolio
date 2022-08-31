@@ -16,7 +16,7 @@ body{
     height: 100vh;
     margin:0;
     padding:0;
-    background-image: url(/images/water2.jpg);
+    background-image: url(/portfolio/images/water2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -57,7 +57,7 @@ transition: ease-in 0.2s;
 }
 
 .profile-img{
-    background-image: url(/images/profile.jpg.JPG);
+    background-image: url(/portfolio/images/profile.jpg.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     border: solid 2px lightslategray;
@@ -323,6 +323,15 @@ transition: 0.2s ease-in;
 
 }
 
+/*----------------  mobile ----------------------*/
+@media screen and (min-width:375px) and (max-width:489px){
+.nav{
+    
+    font-size: 2.1em;
+    }
+
+
+}
 /*---------------- TABLET  ----------------------*/
 
 @media screen and (min-width:490px) and (max-width:680px){
