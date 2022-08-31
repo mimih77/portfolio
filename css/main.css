@@ -1,0 +1,587 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.background{
+    
+    height: 100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+
+ul li {
+list-style: none;
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding:0.5em;
+}
+.nav{
+    margin:0;
+    padding: 1.5em;
+    background-color: lightgrey;
+    font-size: 2em;
+    
+}
+ .parent{
+     
+     display: flex;
+     
+     
+ }
+ 
+ 
+ .nav ul li a:hover{
+color:rgb(255, 255, 255);
+cursor: pointer;
+border-bottom: solid 1px white;
+transition: ease-in 0.2s;
+}
+
+.profile-img{
+    background-image: url(/images/profile.jpg.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px lightslategray;
+    margin:0 auto;
+    width:250px;
+    height: 15em;
+    border-radius: 100%;
+    margin-top:1.2em;
+    
+}
+
+.descrpt h1{
+    font-size: 2.5em;
+    color:black;
+}
+
+.descrpt{
+    background-color:rgba(211,211,211,0.9);
+    width:80%;
+    margin:0.5em auto;
+   padding:2em;
+   text-align:center;
+   line-height: 2em;
+   font-size: 2.3em;
+   color:rgb(6, 93, 122);
+}
+
+
+#scroll-arrow{
+    color: black;
+    position: relative;
+    top:4em;
+    padding-bottom:1.5em;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    animation: jumpLoop 2s infinite;
+    
+}
+
+#scroll-arrow2{
+    color: black;
+    position: relative;
+    bottom:2em;
+    
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    animation: jumpLoop 2s infinite;
+    
+}
+
+
+@keyframes jumpLoop{
+    0%{
+        margin-top: 0;
+        
+    }
+    50%{
+        margin-top:6px;
+    }
+    100%{
+        margin-top:0;
+    }
+}
+
+.work-sec{
+    height:100vh;
+   
+}
+
+.display{
+   
+    height:100%;
+    
+}
+
+.d-block{
+   width: 100%;
+  border:2px 
+}
+
+.carousel-item  #img2,#img0,#img1{
+   
+   padding:30px
+}
+
+.carousel-inner{
+    position: relative;
+    top:80px;
+}
+ .carousel-indicators {
+    background-color: lightgrey;
+    position: relative;
+    top:70px;
+}
+
+.bi-arrow-up{
+    float:right;
+    position: fixed;
+    bottom:10px;
+    left:90%;
+    color: black;
+}
+.bi-laptop{
+    width:50px; 
+    height:50px;
+    
+   
+}
+
+.contact-sec{
+    background-color: lightgrey;
+    height:100vh;
+}
+h2{
+    text-align: center;
+    font-size: 3em;
+}
+form{
+    
+    
+    margin:0 50px;
+    background-color:lightgrey;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+      
+}
+
+.label input:focus , textarea:focus{
+    outline:none;
+    border-bottom:2px solid  black ;
+    transition: 0.1s all ease-in;
+}
+label{
+    padding:0.15em;
+    margin-left:1em;
+    
+    
+}
+input ,textarea{
+    height:3.5em;
+    border:none;
+    margin:1em;
+    padding:0.5em;
+}
+
+
+
+   
+
+.submit-btn {
+    border:none;
+    border-radius:0.25em;
+    padding:1em;
+    margin:1.5% 35%;
+    width:30%;
+    background-color: darkgrey;
+}
+.submit-btn:hover{
+cursor: pointer;
+background-color: rgba(255,255,255,0.5);
+transition: 0.2s ease-in;
+}
+
+.footer-sec{
+    background-color: lightgrey;
+   border-top:2px solid white;
+    color:black;
+    height:10vh;
+    text-align: center;
+    padding:1.15em 0;
+    
+    
+}
+
+/*---------------- ABOUT PAGE ----------------------*/
+.background-about{
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100vw;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    
+    
+}
+.timeline-img{
+    height:84%;
+}
+
+/*----------------  MEDIA QUERIES ----------------------*/
+
+/*---------------- TABLET  ----------------------*/
+
+@media screen and (min-width:490px) and (max-width:680px){
+.nav{
+    
+    font-size: 2em;
+    }
+
+    .descrpt li{
+        
+        width:150px;
+        margin:2px auto;
+       text-align: center;
+       
+       line-height:1.7em;
+       font-size: 1em;
+    }
+    .descrpt{
+        width:80%;
+        margin:0.5em auto;
+        
+    }
+
+
+    #scroll-arrow{
+        position: relative;
+        top:6em;
+        
+    }
+    .carousel-item  #img2{
+       
+        padding:0 50px;
+        margin:0;
+     }
+    .bi-arrow-up{
+        left:90%;
+        
+    }
+    h2{
+        padding-top:1em;
+    }
+    .label{
+        font-size: 1.5em;
+    }
+
+    .footer-sec{
+        
+        border-top:2px solid white;
+         text-align: center;
+         
+         
+         
+     }
+
+     /*---------------- about  ----------------------*/
+     .background-about{
+        height:100vh;
+        margin:0;
+        padding:0;
+        background-image: url(/images/water2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .timeline{
+        background-color: rgba(255, 255, 255, 0.5);
+        width:100vw;
+        display: flex;
+        height:100vh;
+        justify-content: center;
+        
+        
+    }
+    .timeline-img{
+        height:84%;
+    }
+}
+/*---------------- TABLET bigger  ----------------------*/
+
+@media screen and (min-width:681px) and (max-width:770px){
+    #scroll-arrow{
+        position: relative;
+        top:4em;
+        
+    }
+    
+    .nav{
+        font-size: 2em;
+    }
+    .carousel-item  #img2{
+        
+        padding:0 50px ;
+        margin:0;
+     }
+    h2{
+        padding-top:1em;
+    }
+    /*---------------- about  ----------------------*/
+    .background-about{
+        height:100vh;
+        margin:0;
+        padding:0;
+        background-image: url(/images/water2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .timeline{
+        background-color: rgba(255, 255, 255, 0.5);
+        width:100vw;
+        display: flex;
+        height:100vh;
+        justify-content: center;
+        
+        
+    }
+    .timeline-img{
+        height:84%;
+    }
+}
+
+@media screen and (min-width:771px) and (max-width:990px){
+
+    #scroll-arrow{
+        position: relative;
+        top:4em;
+        
+    }
+    .nav{
+    font-size: 2em;
+}
+.carousel-item  #img2{
+    
+    padding:0 120px;
+    margin:0;
+ }
+  h2{
+      
+      padding-top:1em;
+     
+  }
+    form{
+        margin:0 50px;
+        
+    }
+    .label{
+        font-size: 1.5em;
+    }
+    /*---------------- about  ----------------------*/
+    .background-about{
+        height:100vh;
+        margin:0;
+        padding:0;
+        background-image: url(/images/water2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .timeline{
+        background-color: rgba(255, 255, 255, 0.5);
+        width:100vw;
+        display: flex;
+        height:100vh;
+        justify-content: center;
+        
+        
+    }
+    .timeline-img{
+        height:84%;
+    }
+
+}
+
+@media screen and (min-width:991px) and (max-width:1200px){
+    #scroll-arrow{
+        position: relative;
+        top:4em;
+        
+    }
+    
+    
+    .carousel-item  #img2{
+        
+        padding:0 250px;
+        margin:0;
+     }
+     .carousel-item #img1{
+         padding:0 150px;
+         margin:0;
+     }
+     /*---------------- about  ----------------------*/
+    .background-about{
+        height:100vh;
+        margin:0;
+        padding:0;
+        background-image: url(/images/water2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .timeline{
+        background-color: rgba(255, 255, 255, 0.5);
+        width:100vw;
+        display: flex;
+        height:100vh;
+        justify-content: center;
+        
+        
+    }
+    .timeline-img{
+        height:84%;
+    }
+     
+}
+/*---------------- DESKTOP  ----------------------*/
+
+@media screen and (min-width:1201px) and (max-width:1400px){
+    #scroll-arrow{
+        position: relative;
+        top:3em;
+        
+    }
+    
+    .nav{
+        font-size: 2em;
+    }
+    
+   .carousel-item  #img2{
+    
+    padding:0 350px;
+    margin:0;
+ }
+ .carousel-item #img1{
+     padding:0 250px;
+     margin:0;
+ }
+   
+
+   h2{
+    padding-top:1em;
+}
+.label{
+    font-size: 1.7em;
+    
+    margin:0 50px;
+}
+/*---------------- about  ----------------------*/
+.background-about{
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100vw;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    
+    
+}
+.timeline-img{
+    height:84%;
+}
+
+}
+/*---------------- DESKTOP bigger ----------------------*/
+
+@media  screen and (min-width:1401px) and (max-width:2020px) {
+    .nav{
+        font-size: 2em;
+    }
+    #scroll-arrow{
+        position: relative;
+        top:4em;
+        
+    }
+    .carousel-item  #img2{
+        
+        padding:0 450px;
+        margin:0;
+     }
+     .carousel-item #img1{
+         padding:0 350px;
+         margin:0;
+     }
+    .contact-sec{
+        
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .label{
+        margin:70px 50px;
+    }
+
+    h2{
+        padding:400px 0;
+    }
+.submit-btn{
+    font-size: 1.5em;
+    
+}
+/*---------------- about  ----------------------*/
+.background-about{
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100vw;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    
+    
+}
+.timeline-img{
+    height:84%;
+}
+
+}
