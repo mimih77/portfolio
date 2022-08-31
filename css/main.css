@@ -260,6 +260,68 @@ transition: 0.2s ease-in;
 }
 
 /*----------------  MEDIA QUERIES ----------------------*/
+/*----------------  Mobile ----------------------*/
+
+@media screen and (min-width:100px) and (max-width:489px){
+
+   .nav{
+       font-size: 1.5em;
+   }
+
+   .descrpt h1{
+       font-size: 1.5em;
+       padding:0;
+       margin:0;
+       
+   }
+   .descrpt{
+    width:80%;
+    margin: auto;
+    
+}
+
+   .descrpt li{
+       height:15px ;
+       line-height:2em;
+       font-size: 0.7em;
+       padding:0.7em;
+      
+   }
+
+   #scroll-arrow{
+    position: relative;
+    top:-2.1em;
+   
+
+}
+.bi-arrow-up{
+    left:85%;
+    
+}
+.label{
+    font-size: 1.2em;
+}
+/*---------------- about  ----------------------*/
+.background-about{
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100vw;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    
+    
+}
+
+
+}
 
 /*---------------- TABLET  ----------------------*/
 
