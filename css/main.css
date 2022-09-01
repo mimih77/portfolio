@@ -323,15 +323,7 @@ transition: 0.2s ease-in;
 
 }
 
-/*----------------  mobile ----------------------*/
-@media screen and (min-width:375px) and (max-width:489px){
-.nav{
-    
-    font-size: 2.1em;
-    }
 
-
-}
 /*---------------- TABLET  ----------------------*/
 
 @media screen and (min-width:490px) and (max-width:680px){
@@ -340,25 +332,33 @@ transition: 0.2s ease-in;
     font-size: 2em;
     }
 
-    .descrpt li{
-        
-        width:150px;
-        margin:2px auto;
-       text-align: center;
-       
-       line-height:1.7em;
-       font-size: 1em;
-    }
+    
     .descrpt{
+       
         width:80%;
-        margin:0.5em auto;
+         margin:0 auto;
         
+    }
+    .descrpt h1{
+        font-size: 1.5em;
+        padding:0;
+        margin:0;
+        
+    }
+    
+ 
+    .descrpt li{
+        height:15px ;
+        line-height:2em;
+        font-size: 0.7em;
+        padding:0.7em;
+       
     }
 
 
     #scroll-arrow{
         position: relative;
-        top:6em;
+        top:2em;
         
     }
     .carousel-item  #img2{
@@ -425,6 +425,31 @@ transition: 0.2s ease-in;
         padding:0 50px ;
         margin:0;
      }
+     
+     .descrpt h1{
+        font-size: 1.5em;
+        padding:0;
+        margin:0;
+        
+    }
+    .descrpt{
+     width:80%;
+     margin: auto;
+     
+ }
+ 
+    .descrpt li{
+        height:15px ;
+        line-height:2em;
+        font-size: 0.7em;
+        padding:0.7em;
+       
+    }
+    #scroll-arrow{
+        position: relative;
+        top:2em;
+        
+    }
     h2{
         padding-top:1em;
     }
@@ -460,6 +485,30 @@ transition: 0.2s ease-in;
     }
     .nav{
     font-size: 2em;
+}
+.descrpt h1{
+    font-size: 1.5em;
+    padding:0;
+    margin:0;
+    
+}
+.descrpt{
+ width:80%;
+ margin: auto;
+ 
+}
+
+.descrpt li{
+    height:15px ;
+    line-height:2em;
+    font-size: 0.7em;
+    padding:0.7em;
+   
+}
+#scroll-arrow{
+    position: relative;
+    top:2em;
+    
 }
 .carousel-item  #img2{
     
@@ -503,9 +552,30 @@ transition: 0.2s ease-in;
 }
 
 @media screen and (min-width:991px) and (max-width:1200px){
+    
+    .descrpt h1{
+        font-size: 1.5em;
+        padding:0;
+        margin:0;
+        
+    }
+    .descrpt{
+     width:80%;
+     margin: auto;
+     
+ }
+ 
+    .descrpt li{
+        height:15px ;
+        line-height:2em;
+        font-size: 0.7em;
+        padding:0.7em;
+       
+    }
+    
     #scroll-arrow{
         position: relative;
-        top:4em;
+        top:2em;
         
     }
     
@@ -545,9 +615,31 @@ transition: 0.2s ease-in;
 /*---------------- DESKTOP  ----------------------*/
 
 @media screen and (min-width:1201px) and (max-width:1400px){
+    .descrpt h1{
+        font-size: 1.5em;
+        padding:0;
+        margin:0;
+        
+    }
+    .descrpt{
+     width:80%;
+     margin: auto;
+     
+ }
+ 
+    .descrpt li{
+        height:15px ;
+        line-height:2em;
+        font-size: 0.7em;
+        padding:0.7em;
+       
+    }
+    
+    
+    
     #scroll-arrow{
         position: relative;
-        top:3em;
+        top:2em;
         
     }
     
@@ -603,9 +695,29 @@ transition: 0.2s ease-in;
     .nav{
         font-size: 2em;
     }
+
+    .descrpt h1{
+        font-size: 1.5em;
+        padding:0;
+        margin:0;
+        
+    }
+    .descrpt{
+     width:80%;
+     margin: auto;
+     
+ }
+ 
+    .descrpt li{
+        height:15px ;
+        line-height:2em;
+        font-size: 0.7em;
+        padding:0.7em;
+       
+    }
     #scroll-arrow{
         position: relative;
-        top:4em;
+        top:2em;
         
     }
     .carousel-item  #img2{
