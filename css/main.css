@@ -274,9 +274,7 @@ transition: 0.2s ease-in;
 /*----------------  Mobile ----------------------*/
 
 @media screen and (min-width:100px) and (max-width:489px) and (max-height:896px){
-.background{
-    background-color: blue;
-}
+
 .profile-img{
    padding:0 ;
 
@@ -537,6 +535,11 @@ transition: 0.2s ease-in;
 }
 .carousel-item  #img2{
     
+    padding:10px 210px;
+    margin:0;
+ }
+ .carousel-item  #img1{
+    
     padding:0 120px;
     margin:0;
  }
@@ -607,12 +610,13 @@ transition: 0.2s ease-in;
     
     .carousel-item  #img2{
         
-        padding:0 250px;
+        padding:0 320px;
         margin:0;
      }
      .carousel-item #img1{
-         padding:0 150px;
+         padding:0 250px;
          margin:0;
+         
      }
      /*---------------- about  ----------------------*/
     .background-about{
@@ -671,14 +675,17 @@ transition: 0.2s ease-in;
     .nav{
         font-size: 2em;
     }
-    
+    .carousel-item #img0{
+        margin: 0;
+        padding:0 150px;
+    }
    .carousel-item  #img2{
     
-    padding:0 350px;
+    padding:0 400px;
     margin:0;
  }
  .carousel-item #img1{
-     padding:0 250px;
+     padding:0 350px;
      margin:0;
  }
    
@@ -745,13 +752,17 @@ transition: 0.2s ease-in;
         top:2em;
         
     }
+    .carousel-item #img0{
+        margin:0;
+        padding:0 200px;
+    }
     .carousel-item  #img2{
         
-        padding:0 450px;
+        padding:0 500px;
         margin:0;
      }
      .carousel-item #img1{
-         padding:0 350px;
+         padding:0 400px;
          margin:0;
      }
     .contact-sec{
@@ -793,3 +804,4 @@ transition: 0.2s ease-in;
 }
 
 }
+
