@@ -124,15 +124,29 @@ transition: ease-in 0.2s;
     }
 }
 
-.work-sec{
+.work-sec {
     height:100vh;
-   
+    border: solid 2px red;
 }
-
+.work-sec2{
+    height:100vh;
+    border: solid 2px green;
+}
 .display{
    
     height:100%;
     
+}
+.url-link{
+    position: relative;
+    top:5em;
+    left: 10em;
+    text-decoration: none;
+    color:black;
+}
+.url-link:hover{
+    cursor:pointer;
+    color:lightslategray;
 }
 
 .d-block{
@@ -140,7 +154,7 @@ transition: ease-in 0.2s;
   border:2px 
 }
 
-.carousel-item  #img2,#img0,#img1{
+.carousel-item  #img0,#img1,#img2,#img3,#img4,#img5{
    
    padding:30px
 }
@@ -168,6 +182,7 @@ transition: ease-in 0.2s;
     
    
 }
+
 
 .contact-sec{
     background-color: lightgrey;
@@ -393,11 +408,12 @@ transition: 0.2s ease-in;
         left:90%;
         
     }
+  
     h2{
         padding-top:1em;
     }
     .label{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .footer-sec{
@@ -476,6 +492,9 @@ transition: 0.2s ease-in;
     h2{
         padding-top:1em;
     }
+    .label{
+        font-size: 1.3em;
+    }
     /*---------------- about  ----------------------*/
     .background-about{
         height:100vh;
@@ -553,7 +572,7 @@ transition: 0.2s ease-in;
         
     }
     .label{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     /*---------------- about  ----------------------*/
     .background-about{
@@ -618,6 +637,9 @@ transition: 0.2s ease-in;
          margin:0;
          
      }
+     .label{
+        font-size: 1.4em;
+    }
      /*---------------- about  ----------------------*/
     .background-about{
         height:100vh;
@@ -694,7 +716,7 @@ transition: 0.2s ease-in;
     padding-top:1em;
 }
 .label{
-    font-size: 1.7em;
+    font-size: 1.3em;
     
     margin:0 50px;
 }
@@ -771,14 +793,24 @@ transition: 0.2s ease-in;
         grid-template-columns: 1fr 3fr;
     }
     .label{
-        margin:70px 50px;
+        margin:30px 50px;
+        font-size: 1.3em;
+       
     }
 
     h2{
         padding:400px 0;
     }
+    form{
+        height: 50%;
+        margin:10px 0;
+       
+        
+    }
 .submit-btn{
-    font-size: 1.5em;
+    
+    font-size: 1.2em;
+    
     
 }
 /*---------------- about  ----------------------*/
