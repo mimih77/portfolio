@@ -126,11 +126,11 @@ transition: ease-in 0.2s;
 
 .work-sec {
     height:100vh;
-    border: solid 2px red;
+   
 }
 .work-sec2{
     height:100vh;
-    border: solid 2px green;
+    
 }
 .display{
    
@@ -138,9 +138,10 @@ transition: ease-in 0.2s;
     
 }
 .url-link{
+    
     position: relative;
     top:5em;
-    left: 10em;
+    left: 8em;
     text-decoration: none;
     color:black;
 }
@@ -319,7 +320,14 @@ transition: 0.2s ease-in;
        padding:0.7em;
       
    }
-
+   .url-link{
+    
+    position: relative;
+    top:5em;
+    left: 8em;
+    text-decoration: none;
+    color:black;
+}
    #scroll-arrow{
     position: relative;
     top:0.3em;
@@ -398,6 +406,14 @@ transition: 0.2s ease-in;
         position: relative;
         top:2em;
         
+    }
+    .url-link{
+    
+        position: relative;
+        top:5em;
+        left: 13em;
+        text-decoration: none;
+        color:black;
     }
     .carousel-item  #img2{
        
@@ -489,6 +505,14 @@ transition: 0.2s ease-in;
         top:2em;
         
     }
+    .url-link{
+    
+        position: relative;
+        top:5em;
+        left: 19em;
+        text-decoration: none;
+        color:black;
+    }
     h2{
         padding-top:1em;
     }
@@ -546,6 +570,14 @@ transition: 0.2s ease-in;
     font-size: 0.7em;
     padding:0.7em;
    
+}
+.url-link{
+    
+    position: relative;
+    top:5em;
+    left: 21em;
+    text-decoration: none;
+    color:black;
 }
 #scroll-arrow{
     position: relative;
@@ -625,7 +657,14 @@ transition: 0.2s ease-in;
         top:2em;
         
     }
+    .url-link{
     
+        position: relative;
+        top:5em;
+        left: 30em;
+        text-decoration: none;
+        color:black;
+    }
     
     .carousel-item  #img2{
         
@@ -686,7 +725,14 @@ transition: 0.2s ease-in;
        
     }
     
+    .url-link{
     
+        position: relative;
+        top:5em;
+        left: 38em;
+        text-decoration: none;
+        color:black;
+    }
     
     #scroll-arrow{
         position: relative;
@@ -773,6 +819,15 @@ transition: 0.2s ease-in;
         position: relative;
         top:2em;
         
+    }
+
+    .url-link{
+    
+        position: relative;
+        top:5em;
+        left: 38em;
+        text-decoration: none;
+        color:black;
     }
     .carousel-item #img0{
         margin:0;
