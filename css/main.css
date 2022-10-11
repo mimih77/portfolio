@@ -12,7 +12,7 @@ body{
 }
 
 .background{
-    
+    border: 2px solid slateblue;
     height: 100vh;
     margin:0;
     padding:0;
@@ -70,17 +70,19 @@ transition: ease-in 0.2s;
 }
 
 .descrpt h1{
-    font-size: 2.5em;
-    color:black;
+    font-size: 1em;
+    color:red;
+    
 }
 
 .descrpt{
     background-color:rgba(211,211,211,0.9);
     width:80%;
+    border: 2px solid slateblue;
     margin:0.5em auto;
-   padding:2em;
+   padding:0.5em;
    text-align:center;
-   line-height: 2em;
+   line-height:2.3em;
    font-size: 2.3em;
    color:rgb(6, 93, 122);
 }
@@ -99,6 +101,18 @@ transition: ease-in 0.2s;
 }
 
 #scroll-arrow2{
+    color: black;
+    position: relative;
+    bottom:2em;
+    
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    animation: jumpLoop 2s infinite;
+    
+}
+
+#scroll-arrow3{
     color: black;
     position: relative;
     bottom:2em;
@@ -143,7 +157,7 @@ transition: ease-in 0.2s;
     top:5em;
     left: 8em;
     text-decoration: none;
-    color:black;
+    color:red;
 }
 .url-link:hover{
     cursor:pointer;
@@ -380,7 +394,7 @@ transition: 0.2s ease-in;
 
     
     .descrpt{
-       
+       height:6em;
         width:80%;
          margin:0 auto;
         
@@ -395,9 +409,9 @@ transition: 0.2s ease-in;
  
     .descrpt li{
         height:15px ;
-        line-height:2em;
+        line-height:1em;
         font-size: 0.7em;
-        padding:0.7em;
+        padding:0.4em;
        
     }
 
@@ -410,14 +424,24 @@ transition: 0.2s ease-in;
     .url-link{
     
         position: relative;
-        top:5em;
-        left: 13em;
+        top:4.5em;
+        left: 18em;
         text-decoration: none;
         color:black;
     }
-    .carousel-item  #img2{
+    .carousel-item  #img0{
        
-        padding:0 50px;
+        padding:0 10px;
+        margin:0;
+     }
+     .carousel-item  #img1{
+       
+        padding:0 100px;
+        margin:0;
+     }
+     .carousel-item  #img2{
+       
+        padding:0 150px;
         margin:0;
      }
     .bi-arrow-up{
@@ -429,7 +453,7 @@ transition: 0.2s ease-in;
         padding-top:1em;
     }
     .label{
-        font-size: 1.3em;
+        font-size: 0.8em;
     }
 
     .footer-sec{
@@ -475,29 +499,28 @@ transition: 0.2s ease-in;
     .nav{
         font-size: 2em;
     }
-    .carousel-item  #img2{
-        
-        padding:0 50px ;
-        margin:0;
+   
+     .background{
+         border: 2px solid red;
      }
-     
      .descrpt h1{
-        font-size: 1.5em;
+        font-size: 1em;
         padding:0;
         margin:0;
         
     }
     .descrpt{
      width:80%;
+     height:6em;
      margin: auto;
      
  }
  
     .descrpt li{
         height:15px ;
-        line-height:2em;
+        line-height:1.2em;
         font-size: 0.7em;
-        padding:0.7em;
+        padding:0.5em;
        
     }
     #scroll-arrow{
@@ -505,10 +528,25 @@ transition: 0.2s ease-in;
         top:2em;
         
     }
+    .carousel-item  #img0{
+        
+        padding:0 50px ;
+        margin:0;
+     }
+    .carousel-item  #img1{
+        
+        padding:0 100px ;
+        margin:0;
+     }
+     .carousel-item  #img2{
+        
+        padding:0 150px ;
+        margin:0;
+     }
     .url-link{
     
         position: relative;
-        top:5em;
+        top:4.5em;
         left: 19em;
         text-decoration: none;
         color:black;
@@ -517,7 +555,7 @@ transition: 0.2s ease-in;
         padding-top:1em;
     }
     .label{
-        font-size: 1.3em;
+        font-size: 0.7em;
     }
     /*---------------- about  ----------------------*/
     .background-about{
@@ -553,29 +591,34 @@ transition: 0.2s ease-in;
     font-size: 2em;
 }
 .descrpt h1{
-    font-size: 1.5em;
+    font-size: 1em;
     padding:0;
     margin:0;
     
 }
+.background{
+    border: 2px solid red;
+}
 .descrpt{
  width:80%;
+ height:6em ;
+ border: 2px solid red;
  margin: auto;
  
 }
 
 .descrpt li{
     height:15px ;
-    line-height:2em;
+    line-height:1.2em;
     font-size: 0.7em;
-    padding:0.7em;
+    padding:0.5em;
    
 }
 .url-link{
     
     position: relative;
-    top:5em;
-    left: 21em;
+    top:4.4em;
+    left: 30em;
     text-decoration: none;
     color:black;
 }
@@ -583,17 +626,22 @@ transition: 0.2s ease-in;
     position: relative;
     top:2em;
     
-}
+}.carousel-item  #img0{
+    
+    padding:0 50px;
+    margin:0;
+ }
+.carousel-item  #img1{
+    
+    padding:0 170px;
+    margin:0;
+ }
 .carousel-item  #img2{
     
-    padding:10px 210px;
+    padding:10px 230px;
     margin:0;
  }
- .carousel-item  #img1{
-    
-    padding:0 120px;
-    margin:0;
- }
+ 
   h2{
       
       padding-top:1em;
@@ -604,7 +652,7 @@ transition: 0.2s ease-in;
         
     }
     .label{
-        font-size: 1.3em;
+        font-size: 0.8em;
     }
     /*---------------- about  ----------------------*/
     .background-about{
@@ -633,51 +681,66 @@ transition: 0.2s ease-in;
 @media screen and (min-width:991px) and (max-width:1200px){
     
     .descrpt h1{
-        font-size: 1.5em;
+        font-size: 1em;
         padding:0;
         margin:0;
         
     }
+    .background{
+        border: 2px solid red;
+    }
     .descrpt{
      width:80%;
+     height: 6em;
      margin: auto;
-     
+     border: 2px solid red;
  }
  
     .descrpt li{
         height:15px ;
-        line-height:2em;
+        line-height:1.2em;
         font-size: 0.7em;
-        padding:0.7em;
+        padding:0.5em;
        
     }
     
     #scroll-arrow{
         position: relative;
-        top:2em;
+        top:1.4em;
         
     }
     .url-link{
     
         position: relative;
-        top:5em;
-        left: 30em;
+        top:4.3em;
+        left: 34em;
         text-decoration: none;
         color:black;
     }
-    
-    .carousel-item  #img2{
+    .carousel-item  #img0{
         
-        padding:0 320px;
+        padding:0 150px;
         margin:0;
      }
+   
      .carousel-item #img1{
-         padding:0 250px;
+         padding:0 300px;
          margin:0;
          
      }
+     .carousel-item  #img2{
+        
+        padding:0 350px;
+        margin:0;
+     }
+     .carousel-item  #img3{
+        
+        padding:0 150px;
+        margin:0;
+     }
+    
      .label{
-        font-size: 1.4em;
+        font-size: 1em;
     }
      /*---------------- about  ----------------------*/
     .background-about{
@@ -706,50 +769,67 @@ transition: 0.2s ease-in;
 
 @media screen and (min-width:1201px) and (max-width:1400px){
     .descrpt h1{
-        font-size: 1.5em;
+        font-size: 1em;
         padding:0;
         margin:0;
-        
+        color:red;
     }
     .descrpt{
      width:80%;
+     height: 6em;
      margin: auto;
-     
+     border: 2px solid blue;
  }
+ 
+ 
  
     .descrpt li{
         height:15px ;
-        line-height:2em;
+        line-height:0.2em;
         font-size: 0.7em;
-        padding:0.7em;
+        padding:0.5em;
        
     }
-    
+    .background{
+        border:2px solid green;
+    }
     .url-link{
     
         position: relative;
-        top:5em;
-        left: 38em;
+        top:4em;
+        left: 35em;
         text-decoration: none;
         color:black;
     }
     
     #scroll-arrow{
         position: relative;
-        top:2em;
+        top:1em;
         
     }
+    #scroll-arrow2{
+        position: relative;
+        top:0.3em;
+        color: green;
+    }
+
+    #scroll-arrow3{
+        position: relative;
+        
+       
+    }
+    
     
     .nav{
         font-size: 2em;
     }
-    .carousel-item #img0{
+    .carousel-item #img0, #img3{
         margin: 0;
-        padding:0 150px;
+        padding:0 190px;
     }
    .carousel-item  #img2{
     
-    padding:0 400px;
+    padding:0 430px;
     margin:0;
  }
  .carousel-item #img1{
@@ -759,10 +839,10 @@ transition: 0.2s ease-in;
    
 
    h2{
-    padding-top:1em;
+    padding-top:0.5em;
 }
 .label{
-    font-size: 1.3em;
+    font-size: 1em;
     
     margin:0 50px;
 }
