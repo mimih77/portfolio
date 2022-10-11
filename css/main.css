@@ -12,7 +12,7 @@ body{
 }
 
 .background{
-    border: 2px solid slateblue;
+    
     height: 100vh;
     margin:0;
     padding:0;
@@ -71,7 +71,7 @@ transition: ease-in 0.2s;
 
 .descrpt h1{
     font-size: 1em;
-    color:red;
+    
     
 }
 
@@ -157,7 +157,7 @@ transition: ease-in 0.2s;
     top:5em;
     left: 8em;
     text-decoration: none;
-    color:red;
+    
 }
 .url-link:hover{
     cursor:pointer;
@@ -500,9 +500,7 @@ transition: 0.2s ease-in;
         font-size: 2em;
     }
    
-     .background{
-         border: 2px solid red;
-     }
+     
      .descrpt h1{
         font-size: 1em;
         padding:0;
@@ -596,13 +594,11 @@ transition: 0.2s ease-in;
     margin:0;
     
 }
-.background{
-    border: 2px solid red;
-}
+
 .descrpt{
  width:80%;
  height:6em ;
- border: 2px solid blue;
+ 
  margin: auto;
  
 }
@@ -686,14 +682,12 @@ transition: 0.2s ease-in;
         margin:0;
         
     }
-    .background{
-        border: 2px solid red;
-    }
+    
     .descrpt{
      width:80%;
      height: 6em;
      margin: auto;
-     border: 2px solid red;
+    
  }
  
     .descrpt li{
@@ -772,13 +766,13 @@ transition: 0.2s ease-in;
         font-size: 1em;
         padding:0;
         margin:0;
-        color:red;
+        
     }
     .descrpt{
      width:80%;
      height: 6em;
      margin: auto;
-     border: 2px solid blue;
+     
  }
  
  
@@ -790,9 +784,7 @@ transition: 0.2s ease-in;
         padding:0.5em;
        
     }
-    .background{
-        border:2px solid green;
-    }
+   
     .url-link{
     
         position: relative;
@@ -810,7 +802,7 @@ transition: 0.2s ease-in;
     #scroll-arrow2{
         position: relative;
         top:0.3em;
-        color: green;
+        color:black;
     }
 
     #scroll-arrow3{
