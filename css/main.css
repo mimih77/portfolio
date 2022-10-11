@@ -437,12 +437,12 @@ transition: 0.2s ease-in;
      .carousel-item  #img1{
        
         padding:0 100px;
-        margin:0;
+        margin:20px;
      }
      .carousel-item  #img2{
        
         padding:0 150px;
-        margin:0;
+        margin:20px;
      }
     .bi-arrow-up{
         left:90%;
@@ -536,12 +536,12 @@ transition: 0.2s ease-in;
     .carousel-item  #img1{
         
         padding:0 100px ;
-        margin:0;
+        margin:20px;
      }
      .carousel-item  #img2{
         
         padding:0 150px ;
-        margin:0;
+        margin:20px;
      }
     .url-link{
     
@@ -602,7 +602,7 @@ transition: 0.2s ease-in;
 .descrpt{
  width:80%;
  height:6em ;
- border: 2px solid red;
+ border: 2px solid blue;
  margin: auto;
  
 }
@@ -634,12 +634,12 @@ transition: 0.2s ease-in;
 .carousel-item  #img1{
     
     padding:0 170px;
-    margin:0;
+    margin:20px;
  }
 .carousel-item  #img2{
     
-    padding:10px 230px;
-    margin:0;
+    padding:10px 260px;
+    margin:20px;
  }
  
   h2{
@@ -725,13 +725,13 @@ transition: 0.2s ease-in;
    
      .carousel-item #img1{
          padding:0 300px;
-         margin:0;
+         margin:20px;
          
      }
      .carousel-item  #img2{
         
         padding:0 350px;
-        margin:0;
+        margin:20px;
      }
      .carousel-item  #img3{
         
@@ -829,12 +829,12 @@ transition: 0.2s ease-in;
     }
    .carousel-item  #img2{
     
-    padding:0 430px;
-    margin:0;
+    padding:0 440px;
+    margin:20px;
  }
  .carousel-item #img1{
-     padding:0 350px;
-     margin:0;
+     padding:0 380px;
+     margin:20px;
  }
    
 
