@@ -78,7 +78,7 @@ transition: ease-in 0.2s;
 .descrpt{
     background-color:rgba(211,211,211,0.9);
     width:80%;
-    border: 2px solid slateblue;
+    
     margin:0.5em auto;
    padding:0.5em;
    text-align:center;
@@ -783,7 +783,7 @@ transition: 0.2s ease-in;
         font-size: 0.7em;
         padding:0.5em;
        
-    }
+    } 
    
     .url-link{
     
