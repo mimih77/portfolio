@@ -88,10 +88,10 @@ transition: ease-in 0.2s;
 }
 
 
-#scroll-arrow{
+#scroll-arrow1{
     color: black;
-    position: relative;
-    top:4em;
+    
+   
     padding-bottom:1.5em;
     width: 100%;
     cursor: pointer;
@@ -151,17 +151,28 @@ transition: ease-in 0.2s;
     height:100%;
     
 }
-.url-link{
-    
+button.url-link a{
+    text-decoration: none;
+    color:black;
+}
+button.url-link{
+   border:none;
+   border-radius:5px;
+   padding:10px;
+  background-color: rgba(6, 93, 122,0.6);
+   margin:0;
     position: relative;
     top:5em;
-    left: 8em;
-    text-decoration: none;
+    left:10em;
+    
     
 }
-.url-link:hover{
+button.url-link:hover{
     cursor:pointer;
-    color:lightslategray;
+    color:black;
+    box-shadow: 0.5px 0.5px 4px;
+    transition: all 0.15s ease-in;
+    background-color: rgba(6, 93, 122,0.45);
 }
 
 .d-block{
@@ -334,13 +345,14 @@ transition: 0.2s ease-in;
        padding:0.7em;
       
    }
-   .url-link{
+   button.url-link{
     
     position: relative;
     top:5em;
     left: 8em;
     text-decoration: none;
     color:black;
+   
 }
    #scroll-arrow{
     position: relative;
@@ -363,7 +375,7 @@ transition: 0.2s ease-in;
 }
 /*---------------- about  ----------------------*/
 .background-about{
-    height:100vh;
+    height:100%;
     margin:0;
     padding:0;
     background-image: url(/portfolio/images/water2.jpg);
@@ -379,6 +391,9 @@ transition: 0.2s ease-in;
     
     
 }
+.timeline-img{
+    height:100%;
+}
 
 
 }
@@ -389,7 +404,7 @@ transition: 0.2s ease-in;
 @media screen and (min-width:490px) and (max-width:680px){
 .nav{
     
-    font-size: 2em;
+    font-size: 1.5em;
     }
 
     
@@ -421,11 +436,11 @@ transition: 0.2s ease-in;
         top:2em;
         
     }
-    .url-link{
+    button.url-link{
     
         position: relative;
         top:4.5em;
-        left: 18em;
+        left: 12em;
         text-decoration: none;
         color:black;
     }
@@ -436,13 +451,19 @@ transition: 0.2s ease-in;
      }
      .carousel-item  #img1{
        
-        padding:0 100px;
+        padding:0 110px;
         margin:20px;
      }
      .carousel-item  #img2{
        
-        padding:0 150px;
+        padding:0 160px;
         margin:20px;
+     }
+
+     .carousel-item  #img3{
+       
+        padding:0 10px;
+        margin:0;
      }
     .bi-arrow-up{
         left:90%;
@@ -467,7 +488,7 @@ transition: 0.2s ease-in;
 
      /*---------------- about  ----------------------*/
      .background-about{
-        height:100vh;
+        height:100%;
         margin:0;
         padding:0;
         background-image: url(/portfolio/images/water2.jpg);
@@ -484,7 +505,7 @@ transition: 0.2s ease-in;
         
     }
     .timeline-img{
-        height:84%;
+        height:100%;
     }
 }
 /*---------------- TABLET bigger  ----------------------*/
@@ -497,7 +518,7 @@ transition: 0.2s ease-in;
     }
     
     .nav{
-        font-size: 2em;
+        font-size: 1.5em;
     }
    
      
@@ -528,24 +549,29 @@ transition: 0.2s ease-in;
     }
     .carousel-item  #img0{
         
-        padding:0 50px ;
+        padding:0 10px ;
         margin:0;
      }
     .carousel-item  #img1{
         
-        padding:0 100px ;
+        padding:0 120px ;
         margin:20px;
      }
      .carousel-item  #img2{
         
-        padding:0 150px ;
+        padding:0 160px ;
         margin:20px;
      }
-    .url-link{
+     .carousel-item  #img3{
+        
+        padding:0 10px ;
+        margin:0;
+     }
+    button.url-link{
     
         position: relative;
         top:4.5em;
-        left: 19em;
+        left: 21em;
         text-decoration: none;
         color:black;
     }
@@ -557,7 +583,7 @@ transition: 0.2s ease-in;
     }
     /*---------------- about  ----------------------*/
     .background-about{
-        height:100vh;
+        height:100%;
         margin:0;
         padding:0;
         background-image: url(/portfolio/images/water2.jpg);
@@ -574,7 +600,7 @@ transition: 0.2s ease-in;
         
     }
     .timeline-img{
-        height:84%;
+        height:100%;
     }
 }
 
@@ -586,7 +612,7 @@ transition: 0.2s ease-in;
         
     }
     .nav{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .descrpt h1{
     font-size: 1em;
@@ -610,11 +636,11 @@ transition: 0.2s ease-in;
     padding:0.5em;
    
 }
-.url-link{
+button.url-link{
     
     position: relative;
     top:4.4em;
-    left: 30em;
+    left: 28em;
     text-decoration: none;
     color:black;
 }
@@ -629,7 +655,7 @@ transition: 0.2s ease-in;
  }
 .carousel-item  #img1{
     
-    padding:0 170px;
+    padding:0 200px;
     margin:20px;
  }
 .carousel-item  #img2{
@@ -652,7 +678,7 @@ transition: 0.2s ease-in;
     }
     /*---------------- about  ----------------------*/
     .background-about{
-        height:100vh;
+        height:100%;
         margin:0;
         padding:0;
         background-image: url(/portfolio/images/water2.jpg);
@@ -669,13 +695,15 @@ transition: 0.2s ease-in;
         
     }
     .timeline-img{
-        height:84%;
+        height:100%;
     }
 
 }
 
 @media screen and (min-width:991px) and (max-width:1200px){
-    
+    .nav{
+        font-size: 1.5em;
+    }
     .descrpt h1{
         font-size: 1em;
         padding:0;
@@ -703,7 +731,7 @@ transition: 0.2s ease-in;
         top:1.4em;
         
     }
-    .url-link{
+    button.url-link{
     
         position: relative;
         top:4.3em;
@@ -718,13 +746,13 @@ transition: 0.2s ease-in;
      }
    
      .carousel-item #img1{
-         padding:0 300px;
+         padding:0 320px;
          margin:20px;
          
      }
      .carousel-item  #img2{
         
-        padding:0 350px;
+        padding:0 370px;
         margin:20px;
      }
      .carousel-item  #img3{
@@ -738,7 +766,7 @@ transition: 0.2s ease-in;
     }
      /*---------------- about  ----------------------*/
     .background-about{
-        height:100vh;
+        height:100%;
         margin:0;
         padding:0;
         background-image: url(/portfolio/images/water2.jpg);
@@ -755,7 +783,7 @@ transition: 0.2s ease-in;
         
     }
     .timeline-img{
-        height:84%;
+        height:100%;
     }
      
 }
@@ -785,29 +813,20 @@ transition: 0.2s ease-in;
        
     } 
    
-    .url-link{
+    button.url-link{
     
         position: relative;
         top:4em;
-        left: 35em;
+        left: 37em;
         text-decoration: none;
         color:black;
     }
     
-    #scroll-arrow{
-        position: relative;
-        top:1em;
-        
-    }
-    #scroll-arrow2{
-        position: relative;
-        top:0.3em;
-        color:black;
-    }
+   
 
-    #scroll-arrow3{
+    #scroll-arrow1{
         position: relative;
-        
+        bottom:3px;
        
     }
     
@@ -817,15 +836,15 @@ transition: 0.2s ease-in;
     }
     .carousel-item #img0, #img3{
         margin: 0;
-        padding:0 190px;
+        padding:0 230px;
     }
    .carousel-item  #img2{
     
-    padding:0 440px;
+    padding:0 460px;
     margin:20px;
  }
  .carousel-item #img1{
-     padding:0 380px;
+     padding:0 400px;
      margin:20px;
  }
    
@@ -840,12 +859,13 @@ transition: 0.2s ease-in;
 }
 /*---------------- about  ----------------------*/
 .background-about{
-    height:100vh;
+    height:100%;
     margin:0;
     padding:0;
     background-image: url(/portfolio/images/water2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .timeline{
     background-color: rgba(255, 255, 255, 0.5);
@@ -857,7 +877,7 @@ transition: 0.2s ease-in;
     
 }
 .timeline-img{
-    height:84%;
+    height:100%;
 }
 
 }
